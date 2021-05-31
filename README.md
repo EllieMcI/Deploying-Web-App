@@ -1,16 +1,16 @@
 # Deploying Web App
 
-## Overview 
+## Overview
 
-This repo is a sample illustrating how to do TensorFlow browser based and server side inference.
+This repo is a web app that supports server-side and browser-based inference, deployed on a cloud provider Heroku.
 
 In [backend](backend), is the server side inference code written in Python and served with FastApi.
-In [frontend](frontend), is the browser based inference code written in Typescript / React 
+In [frontend](frontend), is the browser based inference code written in Typescript / React
 
 The TensorFlow artifacts should be served at [here](backend/artifacts).
-A sample artifact can be found in the repo [releases](https://github.com/reshamas/deploying-web-app/releases/tag/1.0.0-tfjs) 
+A sample artifact can be found in the repo [releases](https://github.com/reshamas/deploying-web-app/releases/tag/1.0.0-tfjs)
 
-## Demo 
+## Demo
 
 Server Side Inference : [Heroku](https://manning-deploy-imagenet.herokuapp.com/)
 Browse Based Inference: [Github Pages](https://reshamas.github.io/deploying-web-app/)
@@ -27,22 +27,21 @@ Browse Based Inference: [Github Pages](https://reshamas.github.io/deploying-web-
 
 It is strongly recommended to create a separate environment for `tesnorflowjs`
 
-Installing tensorflowjs 
-``` 
+Installing tensorflowjs
+```
 pip install tensorflowjs==2.3.0
 ```
 
 Converting keras model located at `artifacts/model_tf_keras.h5` and saving to `artifacts/model_tfjs`
-The `99999999` indicates that the model file should be split to 100 MB partitions.
 
-The `quantize_float16=*`  decrease the default 32-bit precision to 16-bit precision which will reduce the model file size by half 
+The `quantize_float16=*`  decrease the default 32-bit precision to 16-bit precision which will reduce the model file size by half
 
 ```
 tensorflowjs_converter \
 --input_format=keras \
 --output_format=tfjs_graph_model \
 --split_weights_by_layer \
---weight_shard_size_bytes=99999999 \ 
+--weight_shard_size_bytes=99999999 \
 --quantize_float16=* \
 artifacts/model_tf_keras.h5 artifacts/model_tfjs
 
@@ -53,19 +52,19 @@ artifacts/model_tf_keras.h5 artifacts/model_tfjs
 
 ```
 docker build -t app .
-docker run -p 8000:8000 -t app 
+docker run -p 8000:8000 -t app
 ```
 
 If you want to develop outside docker,
 python (backend)
 ```
-conda create -n dl_env python=3.7 
+conda create -n dl_env python=3.7
 pip install -r backend/requirements.txt
 ```
 
 frontend
 ```
-yarn 
+yarn
 ```
 
 
@@ -74,8 +73,8 @@ yarn
 This app is deployed at Heroku.
 Here are the steps for mac
 
-Setup 
-``` 
+Setup
+```
 brew tap heroku/brew && brew install heroku
 heroku login
 heroku container:login
@@ -95,6 +94,7 @@ heroku open --app $APP_NAME
 heroku logs --tail --app ${APP_NAME}
 ```
 
-## Customizing
-In order to prevent most frontend changes, most of the text and options are configured in this [config.yml](config.yaml).
+## The classifying food image app food101-app is deployed to Heroku at https://food101-app.herokuapp.com/deploying-web-app/
 
+## Customizing
+Most of the text and options are configured in this [config.yml](config.yaml).
