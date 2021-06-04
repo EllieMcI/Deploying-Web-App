@@ -5,21 +5,13 @@ about:
 
   This is an Image Classifier using deep learning built on top of TensorFlow.
 
-
-  The project was built by [Nidhin Pattaniyil](https://npatta01.github.io)
-  and [Reshama Shaikh](https://reshamas.github.io).
+  Source code can be found in this repository [deploying-web-app](https://github.com/elliemci/deploying-web-app).
 
 
-  More information can be found in the [Manning Course](https://liveproject.manning.com/).  
-
-  
-  Source code can be found in this repository [deploying-web-app](https://github.com/reshamas/deploying-web-app).
-
-
-code: https://github.com/reshamas/deploying-web-app.git
+code: https://github.com/elliemci/deploying-web-app.git
 
 image_size: 224
-top_k: 5
+top_k: 3
 
 sampleImages:
   - name: Cheese Cake
@@ -38,4 +30,3 @@ sampleImages:
     url: https://upload.wikimedia.org/wikipedia/commons/3/34/Labrador_on_Quantock_%282175262184%29.jpg
   - name: iPhone (not in training data)
     url: https://upload.wikimedia.org/wikipedia/commons/3/3b/IPhone_5s_top.jpg
-  

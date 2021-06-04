@@ -1,0 +1,10 @@
+aiofiles==0.6.0
+fastapi==0.63.0
+h5py==2.10.0
+jsonschema==3.2.0
+matplotlib==3.3.1
+numpy==1.19.2
+pillow==7.2.0
+python-multipart==0.0.5
+tensorflow==2.4.0
+uvicorn==0.13.4
