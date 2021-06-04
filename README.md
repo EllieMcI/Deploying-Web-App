@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repo is a sample illustrating how to do TensorFlow browser based and server side inference.
+This repo is a web app that supports server-side and browser-based inference, deployed on a cloud provider Heroku.
 
 In [backend](backend), is the server side inference code written in Python and served with FastApi.
 In [frontend](frontend), is the browser based inference code written in Typescript/React
@@ -26,11 +26,10 @@ It is strongly recommended to create a separate environment for `tesnorflowjs`
 
 Installing tensorflowjs
 ```
-pip install tensorflowjs==2.4.0
+pip install tensorflowjs==2.3.0
 ```
 
-The tensorflow keras model located at `artifacts/model_tf_keras.h5` is converted and saved in `artifacts/model_tfjs`
-The `99999999` indicates that the model file should be split to 100 MB partitions.
+Converting keras model located at `artifacts/model_tf_keras.h5` and saving to `artifacts/model_tfjs`
 
 The `quantize_float16=*`  decrease the default 32-bit precision to 16-bit precision which will reduce the model file size by half
 
