@@ -81,7 +81,7 @@ heroku container:login
 ```
 
 
-APP_NAME="food101-deploy"
+APP_NAME="food101-app"
 heroku create $APP_NAME
 
 heroku container:push web --app ${APP_NAME}
