@@ -22,17 +22,19 @@ sampleImages:
     url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Buffalo_-_Wings_at_Airport_Anchor_Bar.jpg
   - name: Chocolate Cake
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chocolate_fudge_cake.jpg/220px-Chocolate_fudge_cake.jpg
-  - name: Cannoli
-    url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Cannoli_siciliani_%287472226896%29.jpg/800px-Cannoli_siciliani_%287472226896%29.jpg
+  - name: Doughnut
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Christmas_doughnut_%2815456531431%29.jpg/220px-Christmas_doughnut_%2815456531431%29.jpg
+  - name: French fries
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fries_2.jpg/1280px-Fries_2.jpg  
   - name: Ice cream
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/220px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg
-  - name: Muffin
-    url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Muffin_NIH.jpg/200px-Muffin_NIH.jpg
+  - name: Miso soup
+    url: https://upload.wikimedia.org/wikipedia/commons/a/a1/Tofu_in_miso_soup_by_cathykid_in_Taipei.jpg
+  - name: Pizza
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1280px-Pizza-3007395.jpg
   - name: Stake
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Steak_with_shitaki_mushrooms.jpg/300px-Steak_with_shitaki_mushrooms.jpg
   - name: Sushi
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/220px-Sushi_platter.jpg
-  - name: Miso soup
-    url: https://upload.wikimedia.org/wikipedia/commons/a/a1/Tofu_in_miso_soup_by_cathykid_in_Taipei.jpg
   - name: Waffles
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Waffles_with_Strawberries.jpg/220px-Waffles_with_Strawberries.jpg
