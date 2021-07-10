@@ -18,13 +18,21 @@ top_k: 3
 sampleImages:
   - name: Cheese Cake
     url: https://upload.wikimedia.org/wikipedia/commons/e/ea/Baked_cheesecake_with_raspberries_and_blueberries.jpg
-  - name: Chicken Quesadilla
-    url: https://upload.wikimedia.org/wikipedia/commons/7/75/Quesadilla_2.jpg
   - name: Chicken Wings
     url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Buffalo_-_Wings_at_Airport_Anchor_Bar.jpg
   - name: Chocolate Cake
     url: https://upload.wikimedia.org/wikipedia/commons/6/6a/ChocolateTruffleCakeIdeal01.JPG
+  - name: Croissant
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/2018_01_Croissant_IMG_0685.JPG/270px-2018_01_Croissant_IMG_0685.JPG
+  - name: Ice cream
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/220px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg
+  - name: Muffin
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/NCI_Visuals_Food_Muffins.jpg/250px-NCI_Visuals_Food_Muffins.jpg
   - name: Stake
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Steak_with_shitaki_mushrooms.jpg/300px-Steak_with_shitaki_mushrooms.jpg
-  - name: iPhone (not in training data)
-    url: https://upload.wikimedia.org/wikipedia/commons/3/3b/IPhone_5s_top.jpg
+  - name: Sushi
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/220px-Sushi_platter.jpg
+  - name: Tofu
+    url: https://upload.wikimedia.org/wikipedia/commons/a/a1/Tofu_in_miso_soup_by_cathykid_in_Taipei.jpg
+  - name: Waffle
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Waffles_with_Strawberries.jpg/220px-Waffles_with_Strawberries.jpg
