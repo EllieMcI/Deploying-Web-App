@@ -24,7 +24,7 @@ sampleImages:
     url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Buffalo_-_Wings_at_Airport_Anchor_Bar.jpg
   - name: Chocolate Cake
     url: https://upload.wikimedia.org/wikipedia/commons/6/6a/ChocolateTruffleCakeIdeal01.JPG
-  - name: Granny Smith Apple (not in training data)
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/28/0/FNK_Classic-Crispy-Waffles_s4x3.jpg.rend.hgtvcom.966.725.suffix/1383787355520.jpg
+  - name: Stake
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Steak_with_shitaki_mushrooms.jpg/300px-Steak_with_shitaki_mushrooms.jpg
   - name: iPhone (not in training data)
     url: https://upload.wikimedia.org/wikipedia/commons/3/3b/IPhone_5s_top.jpg
