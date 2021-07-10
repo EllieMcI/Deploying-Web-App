@@ -26,9 +26,9 @@ sampleImages:
     url: https://upload.wikimedia.org/wikipedia/commons/6/6a/ChocolateTruffleCakeIdeal01.JPG
   - name: Granny Smith Apple (not in training data)
     url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Granny_smith_and_cross_section.jpg
-  - name: Salad (not in training data)
-    url : https://upload.wikimedia.org/wikipedia/commons/9/94/Salad_platter.jpg
-  - name: Labrador retriever (not in training data)
-    url: https://upload.wikimedia.org/wikipedia/commons/3/34/Labrador_on_Quantock_%282175262184%29.jpg
+  - name: Steak
+    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/4/26/0/FNM_060110-Bobby-Grilling-013_s4x3.jpg.rend.hgtvcom.686.515.suffix/1382539247827.jpg
+  - name: Waffles
+    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/28/0/FNK_Classic-Crispy-Waffles_s4x3.jpg.rend.hgtvcom.966.725.suffix/1383787355520.jpg
   - name: iPhone (not in training data)
     url: https://upload.wikimedia.org/wikipedia/commons/3/3b/IPhone_5s_top.jpg
