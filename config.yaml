@@ -16,24 +16,14 @@ image_size: 224
 top_k: 3
 
 sampleImages:
-  - name: Apple pie
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/10/4/1/FNM_110110-Pies-027_s4x3.jpg.rend.hgtvcom.686.515.suffix/1382539570711.jpg
-  - name: Baby Back Ribs
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/5/14/1/FNM_060114-Smoked-Baby-Back-Ribs-Recipe_s4x3.jpg.rend.hgtvcom.686.515.suffix/1400187281121.jpg
   - name: Cheese Cake
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/9/0/FNK_Cheesecake_s4x3.jpg.rend.hgtvcom.686.515.suffix/1387411272847.jpg
-  - name: Chicken Curry
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/12/03/wu2403__chicken-curry-in-a-hurry_s4x3.jpg.rend.hgtvcom.686.515.suffix/1575405655829.jpg
+    url: https://upload.wikimedia.org/wikipedia/commons/e/ea/Baked_cheesecake_with_raspberries_and_blueberries.jpg
+  - name: Chicken Quesadilla
+    url: https://upload.wikimedia.org/wikipedia/commons/7/75/Quesadilla_2.jpg
   - name: Chicken Wings
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/2/19/1/FN_Air-Fryer-Chicken-Wings-H_s4x3.jpg.rend.hgtvcom.686.515.suffix/1550611553388.jpg
+    url: https://upload.wikimedia.org/wikipedia/commons/d/dd/Buffalo_-_Wings_at_Airport_Anchor_Bar.jpg
   - name: Chocolate Cake
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/3/18/0/FNK_German-Chocolate-Cake-Slice_s4x3.jpg.rend.hgtvcom.686.515.suffix/1396383143215.jpg
-  - name: Scallops
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/4/1/2/LS-Library_Scallop-Scampi_s4x3.jpg.rend.hgtvcom.686.515.suffix/1522678867103.jpg
-  - name: Steak
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2010/4/26/0/FNM_060110-Bobby-Grilling-013_s4x3.jpg.rend.hgtvcom.686.515.suffix/1382539247827.jpg
-  - name: Waffles
-    url: https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/28/0/FNK_Classic-Crispy-Waffles_s4x3.jpg.rend.hgtvcom.966.725.suffix/1383787355520.jpg
+    url: https://upload.wikimedia.org/wikipedia/commons/6/6a/ChocolateTruffleCakeIdeal01.JPG
   - name: Granny Smith Apple (not in training data)
     url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Granny_smith_and_cross_section.jpg
   - name: Salad (not in training data)
