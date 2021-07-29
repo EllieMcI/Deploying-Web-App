@@ -9,7 +9,7 @@ In [frontend](frontend), is the browser based inference code written in Typescri
 
 ## Demo
 
-Server Side Inference : [Heroku](https://food101-app.herokuapp.com/deploying-web-app/)
+Server Side Inference : [Heroku](https://food101-classifier.herokuapp.com)
 Browse Based Inference: [Github Pages](https://github.com/elliemci/deploying-web-app)
 
 
