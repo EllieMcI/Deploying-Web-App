@@ -15,11 +15,6 @@ Browse Based Inference: [Github Pages](https://github.com/elliemci/deploying-web
 
 ![Demo](assets/demo.gif)
 
-
-## Setup
-
-
-
 ## Converting TensorFlow model
 
 It is strongly recommended to create a separate environment for `tesnorflowjs`
@@ -81,7 +76,7 @@ heroku container:login
 ```
 
 
-APP_NAME="food101-app"
+APP_NAME="food101-classifier"
 heroku create $APP_NAME
 
 heroku container:push web --app ${APP_NAME}
